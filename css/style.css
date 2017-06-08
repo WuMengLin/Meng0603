@@ -348,13 +348,13 @@ img{
 	margin: 0 4.10156%;
 	margin-bottom: 50px;
 }
-.mapimg{
+.map{
 	width: 49.14893%;
 	height: 388px;
 	float: left;
-	background-image: url(../img/Map.png);
+	/*background-image: url(../img/Map.png);
 	background-size: cover;
-	background-position: center;
+	background-position: center;*/
 }
 .basic{
 	width: 48.93617%;

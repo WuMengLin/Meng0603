@@ -104,7 +104,7 @@
 			<div class="reservation clearfix">
 				<h6>我們的位置不太夠坐<p>要不要先定位呢？</h6>
 				<div class="reservationinfo clearfix">
-					<div class="mapimg"></div>
+					<div id="map" class="map"></div>
 					<form action="index.html" class="basic">
 						<label for="name">姓名<br></label>
 						<input id="name" name="name" type="text" placeholder="六角講師吃尾牙">
@@ -154,5 +154,23 @@
 			</div>
 		</div>
 	</div>
+	<script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 22.605725, lng: 120.301097},
+          zoom: 17
+        });
+
+        var marker = new google.maps.Marker(
+          {
+            position:{lat: 22.605725, lng: 120.301097},
+            map: map,
+          }
+        );
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0&callback=initMap"
+    async defer></script>
 </body>
 </html>
