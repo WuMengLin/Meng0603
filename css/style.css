@@ -1013,7 +1013,7 @@ input:-moz-placeholder { color: #4A4A4A; font-family: 微軟正黑體; font-size
 	.reservationinfo{
 		margin: 0 1.43229%;
 	}
-	.mapimg{
+	.map{
 		width: 48.659517%;
 	}
 	.basic{
@@ -1136,11 +1136,8 @@ input:-moz-placeholder { color: #4A4A4A; font-family: 微軟正黑體; font-size
 	.reservationinfo{
 		margin: 0 10px;
 	}
-	.mapimg{
+	.map{
 		float: none;
-		background: url(../img/Map@2x.png);
-		background-position: center cover;
-		background-size: cover;
 		width: 100%;
 		margin-bottom: 30px;
 	}
